@@ -25,7 +25,7 @@ android.api = 31
 android.minapi = 24
 android.archs = arm64-v8a
 
-# --- KORREKTUR: Android SDK/NDK Versionen festpinnen ---
+# --- FINALE KORREKTUR: Android SDK/NDK Versionen festpinnen ---
 # Wir zwingen Buildozer, bewährte Versionen der Android-Werkzeuge zu verwenden,
 # für die die Lizenzakzeptanz im Build-Automaten funktioniert.
 android.sdk = 29
