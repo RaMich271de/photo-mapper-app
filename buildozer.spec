@@ -7,8 +7,6 @@ package.domain = org.ramich.photomapper
 # --- Quellcode-Definition ---
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,ico
-
-# Explizite Definition der Haupt-Python-Datei
 app_filename = PhotoMapper_004.py
 
 version = 1.0
@@ -26,6 +24,13 @@ android.permissions = READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE, INTERNET
 android.api = 31
 android.minapi = 24
 android.archs = arm64-v8a
+
+# --- KORREKTUR: Android SDK/NDK Versionen festpinnen ---
+# Wir zwingen Buildozer, bewährte Versionen der Android-Werkzeuge zu verwenden,
+# für die die Lizenzakzeptanz im Build-Automaten funktioniert.
+android.sdk = 29
+android.ndk = 21b
+android.build_tools = 29.0.3
 
 [buildozer]
 log_level = 2
