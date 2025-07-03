@@ -12,15 +12,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # KORREKTUR: Wir wechseln zu einer anderen, stabileren Buildozer Action
       - name: Build with Buildozer
-        uses: ArtemSBulgakov/buildozer-action@v1
+        uses: aacebo/buildozer-action@v1.4.1
         id: buildozer
         with:
-          command: buildozer android debug
-          buildozer_version: master
+          # Diese Action benötigt keinen expliziten Befehl, sie führt den Build automatisch aus.
+          # Die buildozer.spec wird direkt aus dem Repository gelesen.
+          # buildozer_version: master # Diese Zeile wird hier nicht benötigt.
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v4 # <-- HIER IST DIE KORREKTUR: v3 wurde zu v4
+        uses: actions/upload-artifact@v4
         with:
           name: package
-          path: ${{ steps.buildozer.outputs.filename }}
+          # Der Pfad zum Artefakt ist bei dieser Action leicht anders.
+          path: ${{ steps.buildozer.outputs.apk_file_path }}
