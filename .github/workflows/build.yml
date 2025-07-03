@@ -1,4 +1,4 @@
-name: Android APK Build
+name: Android APK Build (Manually)
 
 on:
   push:
@@ -10,14 +10,36 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Build with Buildozer
-        uses: acebo/buildozer-action@v1  # KORREKTUR: Wir verwenden die stabile Hauptversion v1
-        id: buildozer
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
 
-      - name: Upload artifacts
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+              libffi-dev \
+              libssl-dev \
+              build-essential \
+              python3-dev \
+              libgirepository1.0-dev \
+              libcairo2-dev \
+              cython3
+
+      - name: Install Buildozer
+        run: pip install --upgrade buildozer
+
+      - name: Install python-for-android dependencies
+        run: pip install --upgrade cython virtualenv
+
+      - name: Run Buildozer
+        run: buildozer android debug
+
+      - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
           name: package
-          path: ${{ steps.buildozer.outputs.apk_file_path }}
+          path: bin/*.apk # Findet die APK im Standard-Ausgabeordner
