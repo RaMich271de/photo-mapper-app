@@ -1,0 +1,409 @@
+The target system is: Android - 1 - aarch64
+The host system is: Linux - 6.6.87.2-microsoft-standard-WSL2 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security;
+Id flags: -c;--target=aarch64-none-linux-android21 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is Clang, found in "/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/3.25.1/CompilerIdC/CMakeCCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-79XAYZ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_21c3b/fast && make -j16  -f CMakeFiles/cmTC_21c3b.dir/build.make CMakeFiles/cmTC_21c3b.dir/build
+make[1]: Entering directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-79XAYZ'
+Building C object CMakeFiles/cmTC_21c3b.dir/CMakeCCompilerABI.c.o
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat   -fPIE   -v -MD -MT CMakeFiles/cmTC_21c3b.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_21c3b.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_21c3b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Target: aarch64-none-linux-android21
+Thread model: posix
+InstalledDir: /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin
+ (in-process)
+ "/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" -cc1 -triple aarch64-none-linux-android21 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-79XAYZ -resource-dir /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6 -dependency-file CMakeFiles/cmTC_21c3b.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_21c3b.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/include -internal-isystem /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir=/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-79XAYZ -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_21c3b.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+clang -cc1 version 14.0.6 based upon LLVM 14.0.6git default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/include
+ /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include
+ /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android
+ /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+End of search list.
+Linking C executable cmTC_21c3b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21c3b.dir/link.txt --verbose=1
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections  -v CMakeFiles/cmTC_21c3b.dir/CMakeCCompilerABI.c.o -o cmTC_21c3b 
+Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Target: aarch64-none-linux-android21
+Thread model: posix
+InstalledDir: /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin
+ "/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/ld" --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_21c3b /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/lib/linux/aarch64 -L/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android -L/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_21c3b.dir/CMakeCCompilerABI.c.o /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o
+make[1]: Leaving directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-79XAYZ'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/include]
+    add: [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include]
+    add: [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android]
+    add: [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/include] ==> [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/include]
+  collapse include dir [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include] ==> [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include]
+  collapse include dir [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android] ==> [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android]
+  collapse include dir [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include] ==> [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+  implicit include dirs: [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/include;/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include;/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android;/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-79XAYZ]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_21c3b/fast && make -j16  -f CMakeFiles/cmTC_21c3b.dir/build.make CMakeFiles/cmTC_21c3b.dir/build]
+  ignore line: [make[1]: Entering directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-79XAYZ']
+  ignore line: [Building C object CMakeFiles/cmTC_21c3b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat   -fPIE   -v -MD -MT CMakeFiles/cmTC_21c3b.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_21c3b.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_21c3b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [Android (8490178  based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
+  ignore line: [Target: aarch64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin]
+  ignore line: [ (in-process)]
+  ignore line: [ "/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" -cc1 -triple aarch64-none-linux-android21 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-79XAYZ -resource-dir /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6 -dependency-file CMakeFiles/cmTC_21c3b.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_21c3b.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/include -internal-isystem /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir=/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-79XAYZ -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_21c3b.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 14.0.6 based upon LLVM 14.0.6git default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/include]
+  ignore line: [ /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include]
+  ignore line: [ /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android]
+  ignore line: [ /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_21c3b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21c3b.dir/link.txt --verbose=1]
+  ignore line: [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat   -static-libstdc++ -Wl --build-id=sha1 -Wl --no-rosegment -Wl --fatal-warnings -Wl --gc-sections -Wl --no-undefined -Qunused-arguments -Wl --gc-sections  -v CMakeFiles/cmTC_21c3b.dir/CMakeCCompilerABI.c.o -o cmTC_21c3b ]
+  ignore line: [Android (8490178  based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
+  ignore line: [Target: aarch64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin]
+  link line: [ "/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/ld" --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_21c3b /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/lib/linux/aarch64 -L/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android -L/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_21c3b.dir/CMakeCCompilerABI.c.o /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
+    arg [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/ld] ==> ignore
+    arg [--sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-EL] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [aarch64linux] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_21c3b] ==> ignore
+    arg [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o] ==> obj [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o]
+    arg [-L/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/lib/linux/aarch64] ==> dir [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/lib/linux/aarch64]
+    arg [-L/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21] ==> dir [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21]
+    arg [-L/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> dir [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android]
+    arg [-L/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> dir [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+    arg [--build-id=sha1] ==> ignore
+    arg [--no-rosegment] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_21c3b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o] ==> obj [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
+  remove lib [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a]
+  remove lib [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-aarch64-android.a]
+  collapse library dir [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/lib/linux/aarch64] ==> [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/lib/linux/aarch64]
+  collapse library dir [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21] ==> [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21]
+  collapse library dir [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android]
+  collapse library dir [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+  implicit libs: [-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+  implicit objs: [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o;/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
+  implicit dirs: [/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.6/lib/linux/aarch64;/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21;/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android;/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-KdBOTh
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4704e/fast && make -j16  -f CMakeFiles/cmTC_4704e.dir/build.make CMakeFiles/cmTC_4704e.dir/build
+make[1]: Entering directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-KdBOTh'
+Building C object CMakeFiles/cmTC_4704e.dir/CheckIncludeFile.c.o
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_4704e.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_4704e.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_4704e.dir/CheckIncludeFile.c.o -c /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-KdBOTh/CheckIncludeFile.c
+Linking C executable cmTC_4704e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4704e.dir/link.txt --verbose=1
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_4704e.dir/CheckIncludeFile.c.o -o cmTC_4704e  -latomic -lm 
+make[1]: Leaving directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-KdBOTh'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-1fuLos
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_05dd7/fast && make -j16  -f CMakeFiles/cmTC_05dd7.dir/build.make CMakeFiles/cmTC_05dd7.dir/build
+make[1]: Entering directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-1fuLos'
+Building C object CMakeFiles/cmTC_05dd7.dir/CheckIncludeFile.c.o
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_05dd7.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_05dd7.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_05dd7.dir/CheckIncludeFile.c.o -c /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-1fuLos/CheckIncludeFile.c
+Linking C executable cmTC_05dd7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05dd7.dir/link.txt --verbose=1
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_05dd7.dir/CheckIncludeFile.c.o -o cmTC_05dd7  -latomic -lm 
+make[1]: Leaving directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-1fuLos'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-7tzuI8
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e9abb/fast && make -j16  -f CMakeFiles/cmTC_e9abb.dir/build.make CMakeFiles/cmTC_e9abb.dir/build
+make[1]: Entering directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-7tzuI8'
+Building C object CMakeFiles/cmTC_e9abb.dir/CheckIncludeFile.c.o
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_e9abb.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_e9abb.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_e9abb.dir/CheckIncludeFile.c.o -c /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-7tzuI8/CheckIncludeFile.c
+Linking C executable cmTC_e9abb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9abb.dir/link.txt --verbose=1
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_e9abb.dir/CheckIncludeFile.c.o -o cmTC_e9abb  -latomic -lm 
+make[1]: Leaving directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-7tzuI8'
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Magqtn
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_62204/fast && make -j16  -f CMakeFiles/cmTC_62204.dir/build.make CMakeFiles/cmTC_62204.dir/build
+make[1]: Entering directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Magqtn'
+Building C object CMakeFiles/cmTC_62204.dir/SIZE_T.c.o
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_62204.dir/SIZE_T.c.o -MF CMakeFiles/cmTC_62204.dir/SIZE_T.c.o.d -o CMakeFiles/cmTC_62204.dir/SIZE_T.c.o -c /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Magqtn/SIZE_T.c
+Linking C executable cmTC_62204
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62204.dir/link.txt --verbose=1
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_62204.dir/SIZE_T.c.o -o cmTC_62204  -latomic -lm 
+make[1]: Leaving directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Magqtn'
+
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-YZjLIc
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f8ddf/fast && make -j16  -f CMakeFiles/cmTC_f8ddf.dir/build.make CMakeFiles/cmTC_f8ddf.dir/build
+make[1]: Entering directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-YZjLIc'
+Building C object CMakeFiles/cmTC_f8ddf.dir/UNSIGNED_LONG.c.o
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_f8ddf.dir/UNSIGNED_LONG.c.o -MF CMakeFiles/cmTC_f8ddf.dir/UNSIGNED_LONG.c.o.d -o CMakeFiles/cmTC_f8ddf.dir/UNSIGNED_LONG.c.o -c /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-YZjLIc/UNSIGNED_LONG.c
+Linking C executable cmTC_f8ddf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8ddf.dir/link.txt --verbose=1
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_f8ddf.dir/UNSIGNED_LONG.c.o -o cmTC_f8ddf  -latomic -lm 
+make[1]: Leaving directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-YZjLIc'
+
+
+
+Performing C SOURCE FILE Test HAVE_BUILTIN_CTZL succeeded with the following output:
+Change Dir: /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Nt0Qbf
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9bdc1/fast && make -j16  -f CMakeFiles/cmTC_9bdc1.dir/build.make CMakeFiles/cmTC_9bdc1.dir/build
+make[1]: Entering directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Nt0Qbf'
+Building C object CMakeFiles/cmTC_9bdc1.dir/src.c.o
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DHAVE_BUILTIN_CTZL  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_9bdc1.dir/src.c.o -MF CMakeFiles/cmTC_9bdc1.dir/src.c.o.d -o CMakeFiles/cmTC_9bdc1.dir/src.c.o -c /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Nt0Qbf/src.c
+Linking C executable cmTC_9bdc1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bdc1.dir/link.txt --verbose=1
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_9bdc1.dir/src.c.o -o cmTC_9bdc1  -latomic -lm 
+make[1]: Leaving directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Nt0Qbf'
+
+
+Source file was:
+int main(int argc, char **argv) { unsigned long a = argc;  return __builtin_ctzl(a); }
+
+Determining if files locale.h exist passed with the following output:
+Change Dir: /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-qA6zAw
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eb349/fast && make -j16  -f CMakeFiles/cmTC_eb349.dir/build.make CMakeFiles/cmTC_eb349.dir/build
+make[1]: Entering directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-qA6zAw'
+Building C object CMakeFiles/cmTC_eb349.dir/HAVE_LOCALE_H.c.o
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_eb349.dir/HAVE_LOCALE_H.c.o -MF CMakeFiles/cmTC_eb349.dir/HAVE_LOCALE_H.c.o.d -o CMakeFiles/cmTC_eb349.dir/HAVE_LOCALE_H.c.o -c /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-qA6zAw/HAVE_LOCALE_H.c
+Linking C executable cmTC_eb349
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb349.dir/link.txt --verbose=1
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_eb349.dir/HAVE_LOCALE_H.c.o -o cmTC_eb349  -latomic -lm 
+make[1]: Leaving directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-qA6zAw'
+
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-l0qVnS
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_90861/fast && make -j16  -f CMakeFiles/cmTC_90861.dir/build.make CMakeFiles/cmTC_90861.dir/build
+make[1]: Entering directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-l0qVnS'
+Building C object CMakeFiles/cmTC_90861.dir/HAVE_STDLIB_H.c.o
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_90861.dir/HAVE_STDLIB_H.c.o -MF CMakeFiles/cmTC_90861.dir/HAVE_STDLIB_H.c.o.d -o CMakeFiles/cmTC_90861.dir/HAVE_STDLIB_H.c.o -c /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-l0qVnS/HAVE_STDLIB_H.c
+Linking C executable cmTC_90861
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90861.dir/link.txt --verbose=1
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_90861.dir/HAVE_STDLIB_H.c.o -o cmTC_90861  -latomic -lm 
+make[1]: Leaving directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-l0qVnS'
+
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-mj773p
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4a68b/fast && make -j16  -f CMakeFiles/cmTC_4a68b.dir/build.make CMakeFiles/cmTC_4a68b.dir/build
+make[1]: Entering directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-mj773p'
+Building C object CMakeFiles/cmTC_4a68b.dir/NEED_SYS_TYPES_H.c.o
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_4a68b.dir/NEED_SYS_TYPES_H.c.o -MF CMakeFiles/cmTC_4a68b.dir/NEED_SYS_TYPES_H.c.o.d -o CMakeFiles/cmTC_4a68b.dir/NEED_SYS_TYPES_H.c.o -c /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-mj773p/NEED_SYS_TYPES_H.c
+Linking C executable cmTC_4a68b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a68b.dir/link.txt --verbose=1
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_4a68b.dir/NEED_SYS_TYPES_H.c.o -o cmTC_4a68b  -latomic -lm 
+make[1]: Leaving directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-mj773p'
+
+
+
+Determining if the memset exist passed with the following output:
+Change Dir: /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-u9LtNA
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f3538/fast && make -j16  -f CMakeFiles/cmTC_f3538.dir/build.make CMakeFiles/cmTC_f3538.dir/build
+make[1]: Entering directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-u9LtNA'
+Building C object CMakeFiles/cmTC_f3538.dir/CheckSymbolExists.c.o
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat   -fPIE -MD -MT CMakeFiles/cmTC_f3538.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_f3538.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_f3538.dir/CheckSymbolExists.c.o -c /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-u9LtNA/CheckSymbolExists.c
+Linking C executable cmTC_f3538
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3538.dir/link.txt --verbose=1
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_f3538.dir/CheckSymbolExists.c.o -o cmTC_f3538  -latomic -lm 
+make[1]: Leaving directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-u9LtNA'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memset
+  return ((int*)(&memset))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memcpy exist passed with the following output:
+Change Dir: /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-tTqAxB
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dd01e/fast && make -j16  -f CMakeFiles/cmTC_dd01e.dir/build.make CMakeFiles/cmTC_dd01e.dir/build
+make[1]: Entering directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-tTqAxB'
+Building C object CMakeFiles/cmTC_dd01e.dir/CheckSymbolExists.c.o
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat   -fPIE -MD -MT CMakeFiles/cmTC_dd01e.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_dd01e.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_dd01e.dir/CheckSymbolExists.c.o -c /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-tTqAxB/CheckSymbolExists.c
+Linking C executable cmTC_dd01e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd01e.dir/link.txt --verbose=1
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_dd01e.dir/CheckSymbolExists.c.o -o cmTC_dd01e  -latomic -lm 
+make[1]: Leaving directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-tTqAxB'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memcpy
+  return ((int*)(&memcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining size of unsigned char passed with the following output:
+Change Dir: /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-7L09VZ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_77b96/fast && make -j16  -f CMakeFiles/cmTC_77b96.dir/build.make CMakeFiles/cmTC_77b96.dir/build
+make[1]: Entering directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-7L09VZ'
+Building C object CMakeFiles/cmTC_77b96.dir/UNSIGNED_CHAR.c.o
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_77b96.dir/UNSIGNED_CHAR.c.o -MF CMakeFiles/cmTC_77b96.dir/UNSIGNED_CHAR.c.o.d -o CMakeFiles/cmTC_77b96.dir/UNSIGNED_CHAR.c.o -c /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-7L09VZ/UNSIGNED_CHAR.c
+Linking C executable cmTC_77b96
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77b96.dir/link.txt --verbose=1
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_77b96.dir/UNSIGNED_CHAR.c.o -o cmTC_77b96  -latomic -lm 
+make[1]: Leaving directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-7L09VZ'
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-N7tAY7
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4df75/fast && make -j16  -f CMakeFiles/cmTC_4df75.dir/build.make CMakeFiles/cmTC_4df75.dir/build
+make[1]: Entering directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-N7tAY7'
+Building C object CMakeFiles/cmTC_4df75.dir/UNSIGNED_SHORT.c.o
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_4df75.dir/UNSIGNED_SHORT.c.o -MF CMakeFiles/cmTC_4df75.dir/UNSIGNED_SHORT.c.o.d -o CMakeFiles/cmTC_4df75.dir/UNSIGNED_SHORT.c.o -c /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-N7tAY7/UNSIGNED_SHORT.c
+Linking C executable cmTC_4df75
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4df75.dir/link.txt --verbose=1
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_4df75.dir/UNSIGNED_SHORT.c.o -o cmTC_4df75  -latomic -lm 
+make[1]: Leaving directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-N7tAY7'
+
+
+
+Performing C SOURCE FILE Test INCOMPLETE_TYPES succeeded with the following output:
+Change Dir: /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-dk6ygo
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e2167/fast && make -j16  -f CMakeFiles/cmTC_e2167.dir/build.make CMakeFiles/cmTC_e2167.dir/build
+make[1]: Entering directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-dk6ygo'
+Building C object CMakeFiles/cmTC_e2167.dir/src.c.o
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DINCOMPLETE_TYPES  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_e2167.dir/src.c.o -MF CMakeFiles/cmTC_e2167.dir/src.c.o.d -o CMakeFiles/cmTC_e2167.dir/src.c.o -c /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-dk6ygo/src.c
+Linking C executable cmTC_e2167
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2167.dir/link.txt --verbose=1
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_e2167.dir/src.c.o -o cmTC_e2167  -latomic -lm 
+make[1]: Leaving directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-dk6ygo'
+
+
+Source file was:
+int main(void) { typedef struct undefined_structure *undef_struct_ptr;  undef_struct_ptr ptr = 0;  return ptr != 0; }
+
+Performing C SOURCE FILE Test INLINE_WORKS succeeded with the following output:
+Change Dir: /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-TbUyTk
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c1111/fast && make -j16  -f CMakeFiles/cmTC_c1111.dir/build.make CMakeFiles/cmTC_c1111.dir/build
+make[1]: Entering directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-TbUyTk'
+Building C object CMakeFiles/cmTC_c1111.dir/src.c.o
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DINLINE_WORKS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_c1111.dir/src.c.o -MF CMakeFiles/cmTC_c1111.dir/src.c.o.d -o CMakeFiles/cmTC_c1111.dir/src.c.o -c /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-TbUyTk/src.c
+Linking C executable cmTC_c1111
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1111.dir/link.txt --verbose=1
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_c1111.dir/src.c.o -o cmTC_c1111  -latomic -lm 
+make[1]: Leaving directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-TbUyTk'
+
+
+Source file was:
+__inline__ __attribute__((always_inline)) static int foo(void) { return 0; } int main(void) { return foo(); }
+
+Performing C SOURCE FILE Test HAVE_VERSION_SCRIPT succeeded with the following output:
+Change Dir: /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-a26tPi
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aa852/fast && make -j16  -f CMakeFiles/cmTC_aa852.dir/build.make CMakeFiles/cmTC_aa852.dir/build
+make[1]: Entering directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-a26tPi'
+Building C object CMakeFiles/cmTC_aa852.dir/src.c.o
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DHAVE_VERSION_SCRIPT  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -Wl,--version-script,/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/conftest.map -fPIE -MD -MT CMakeFiles/cmTC_aa852.dir/src.c.o -MF CMakeFiles/cmTC_aa852.dir/src.c.o.d -o CMakeFiles/cmTC_aa852.dir/src.c.o -c /home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-a26tPi/src.c
+clang: warning: -Wl,--version-script,/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/conftest.map: 'linker' input unused [-Wunused-command-line-argument]
+Linking C executable cmTC_aa852
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa852.dir/link.txt --verbose=1
+/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -Wl,--version-script,/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/conftest.map -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections   CMakeFiles/cmTC_aa852.dir/src.c.o -o cmTC_aa852  -latomic -lm 
+make[1]: Leaving directory '/home/ramich/apk_builder/photomapper_py311/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-a26tPi'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Checking whether the ASM compiler is Clang using "--version" matched "(clang version)":
+Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /home/ramich/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin
