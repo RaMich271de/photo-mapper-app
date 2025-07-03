@@ -1,0 +1,36 @@
+name: Android APK Build
+
+# Dieser Block sagt, wann der Build laufen soll:
+# Bei jeder Änderung (push) im "main"-Branch.
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    # Wir mieten uns einen sauberen "ubuntu-latest" Computer von GitHub
+    runs-on: ubuntu-latest
+
+    steps:
+      # Schritt 1: Den Code aus dem Repository auf den Computer laden
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Schritt 2: Den Buildozer-Magier rufen, der alles für uns baut
+      - name: Build with Buildozer
+        uses: ArtemSBulgakov/buildozer-action@v1
+        id: buildozer
+        with:
+          # Der Befehl, den der Magier ausführen soll
+          command: buildozer android debug
+          # Wir nutzen die aktuellste Buildozer-Version
+          buildozer_version: master
+
+      # Schritt 3: Die fertige APK-Datei für den Download bereitstellen
+      - name: Upload artifacts (unsere fertige APK)
+        uses: actions/upload-artifact@v3
+        with:
+          # So wird das Download-Paket heißen
+          name: package
+          # Hier liegt die fertige Datei (diese Zeile findet sie automatisch)
+          path: ${{ steps.buildozer.outputs.filename }}
