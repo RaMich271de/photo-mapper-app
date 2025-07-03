@@ -12,9 +12,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # KORREKTUR: Korrekter Name der Buildozer Action
       - name: Build with Buildozer
-        uses: acebo/buildozer-action@v1.4.1
+        uses: acebo/buildozer-action@v1  # KORREKTUR: Wir verwenden die stabile Hauptversion v1
         id: buildozer
 
       - name: Upload artifacts
