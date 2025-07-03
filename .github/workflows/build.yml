@@ -16,10 +16,6 @@ jobs:
       - name: Build with Buildozer
         uses: aacebo/buildozer-action@v1.4.1
         id: buildozer
-        with:
-          # Diese Action benötigt keinen expliziten Befehl, sie führt den Build automatisch aus.
-          # Die buildozer.spec wird direkt aus dem Repository gelesen.
-          # buildozer_version: master # Diese Zeile wird hier nicht benötigt.
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
